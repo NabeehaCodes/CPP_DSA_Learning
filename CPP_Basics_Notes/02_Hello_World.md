@@ -13,3 +13,22 @@
 * **std:: :** Indicates standard library namespace.
 * void function is the function that returns nothing.
   
+### Hello World Program
+
+```cpp
+#include <iostream>
+using namespace std;
+int main() {
+    cout << "Hello World C++" << endl;
+    return 0;
+}
+```
+
+### Explanation
+
+This program includes the iostream library, prints "Hello World" to the console using cout, and returns 0 to indicate successful execution.
+
+### Output:
+
+<img width="402" height="40" alt="image" src="https://github.com/user-attachments/assets/47116c68-06b4-4142-a307-552b88f7213b" />
+
