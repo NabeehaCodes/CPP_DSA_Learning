@@ -1,6 +1,17 @@
 ## **C++ BASICS**
 * C++ is a compiled language.
-![Compilation](./images/compilation_linking.png)
+```mermaid
+flowchart LR
+
+A1[Source Code 1 .cpp ] --> B1[Compiler] --> C1[Object Code 1 .obj]
+
+A2[Source Code 2 .cpp] --> B2[Compiler] --> C2[Object Code 2 .obj]
+
+C1 --> L[Linker]
+C2 --> L
+
+L --> M[Executable .exe]
+```
 * Source code (.cpp) -> Object file (.obj) -> Executable (.exe)
 * Compiler converts source code into machine code (object files).
 * Linker combines all object files and libraries.
