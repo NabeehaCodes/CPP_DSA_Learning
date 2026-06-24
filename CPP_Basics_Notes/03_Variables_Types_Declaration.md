@@ -2,7 +2,7 @@
 * Every variable stores data of a specific type
 * **Declaration:** introduces a name and specifies its type. Eg: int age;
 ----------------------------------------
-* **Definitions:**
+### **Definitions:**
 
 1. Type -> set of values and operations.(int will have values like digits) 
 2. Object -> memory holding value.
@@ -96,7 +96,7 @@ constexpr int x = 10;
 | May be evaluated at runtime | Must be evaluated at compile time |
 | Used for read-only values   | Used for compile-time constants   |
 
-### Examples
+* Examples:
 
 ```cpp
 const int d = 7;
@@ -106,14 +106,13 @@ constexpr double m1 = 1.4 * square(d); // OK
 constexpr double m2 = 1.4 * square(var); // Error
 const double m3 = 1.4 * square(var);     // OK
 ```
-
-### Why is `max2` an error?
+### **Why is `max2` an error?**
 
 `constexpr` requires all values to be known during compilation.
 
 `var` is a normal variable, so its value is not considered a compile-time constant.
 
-### `constexpr` Functions
+* `constexpr` Functions
 
 A function can be evaluated at compile time if it is declared with `constexpr`.
 
