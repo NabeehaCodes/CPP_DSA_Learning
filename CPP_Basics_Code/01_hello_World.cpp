@@ -8,8 +8,8 @@
 
 //This is with namespace std that do not require to write std::cout just cout 
 #include <iostream>
-using namespace std;
-int main() {
-	cout << "Hello World C++";
-	return 0;
-}
+//using namespace std;
+//int main() {
+//	cout << "Hello World C++";
+//	return 0;
+//}
