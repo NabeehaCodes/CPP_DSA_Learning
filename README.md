@@ -13,7 +13,7 @@ Contains topic-wise C++ notes written in Markdown for easy revision.
 - Variables
 - Loops
 - Functions
-- Pointers (future)
+- Pointers 
 - OOP (future)
 
 ---
@@ -32,9 +32,10 @@ Contains basic C++ programs and practice code.
 Contains Data Structures and Algorithms practice problems organized by topic.
 
 - Arrays
+- Recursion
 - Strings
 - Sorting
-- Searching (future)
+- Searching
 - Linked List (future)
 
 ---
