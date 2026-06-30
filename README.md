@@ -8,7 +8,7 @@ It includes topic-wise notes, coding practice, and problem-solving progress.
 ## Repository Structure
 
 ### 1. CPP_Basics_notes
-Contains topic-wise C++ notes written in Markdown for easy revision.
+Contains topic-wise C++ notes written in Markdown for easy revision.Youtube 10 hrs videos.
 
 - Variables
 - Loops
