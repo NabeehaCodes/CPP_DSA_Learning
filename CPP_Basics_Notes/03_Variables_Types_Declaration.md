@@ -7,13 +7,20 @@
 1. Type -> set of values and operations.(int will have values like digits) 
 2. Object -> memory holding value.
 3. Value -> bits interpreted according to a type.
-4. Variable -> A named object.
+4. Variable -> A named object. Its a type of container for certain type of data .
 
 
 ------------------------------------------
 * **Fundamental Types:**
 bool:true/false, char:character, int, double
 * **sizeof operator:** Returns size of a type in bytes Eg: sizeof(int)
+```cpp
+sizeof(int) //4B
+sizeof(bool) //1B
+sizeof(char) //1B
+sizeof(float) //4B
+sizeof(double) //8B (to store more numbers)
+```
 *  Arithmetic operators: + - / %
 *  Comparison Operators: == != < > <= >=
 *  Assignment (=) vs Equality(==)
@@ -166,5 +173,4 @@ Some language features require `constexpr` values:
 const     = Read-only value
 constexpr = Read-only + known at compile time
 ```
-
-
+## 
