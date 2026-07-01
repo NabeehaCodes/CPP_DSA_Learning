@@ -32,3 +32,9 @@ This program includes the iostream library, prints "Hello World" to the console 
 
 <img width="402" height="40" alt="image" src="https://github.com/user-attachments/assets/47116c68-06b4-4142-a307-552b88f7213b" />
 
+* To get rid of the junk text use
+```cpp
+system('pause>0')
+```
+This will remove the junk text that appears below the output.
+
