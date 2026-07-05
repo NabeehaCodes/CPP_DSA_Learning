@@ -82,3 +82,4 @@ while (tries < 4)
 * `if` -> choose between two possibilities.
 * `switch` -> choose between many possibilities.
 * `while` -> repeat until a condition becomes false.
+so this was my understanding regarding loops will add more content when i learn new things
